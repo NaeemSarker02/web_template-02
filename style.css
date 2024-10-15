@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Oleo+Script:wght@400;700&family=Shojumaru&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+a{
+    text-decoration: none;
+
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to left, #7a60ff, #cd9ffa);
+
+}
+header .maindiv{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+
+
+    /* background-color: #7a60ff; */
+    /* background: linear-gradient(to left, #7a60ff, #cd9ffa); */
+    
+    /* transition: background-color 0.3s ease-in-out; */
+}
+.logo span{
+    font-family: "Oleo Script Swash Caps", system-ui;
+    font-size: 35px;
+}
+.nav{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+.nav ul li a{
+    font-size: 14px;
+    font-family: "Mukta", sans-serif;
+    font-weight: bold;
+    
+    text-transform: uppercase;
+}
+
+.nav ul li a:hover{
+    color:#3007ff;
+    transition: 0.3s;
+}
+.nav ul li a span{
+    color:#612783;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    margin-top: 12vh;
+    padding: 3% 5% 0px 5%;
+    display: flex;
+    background: linear-gradient(to left,#7a60ff, #cd9ffa);
+}
+
+.home .left{
+    height: 100%;
+    width: 50%;
+    padding-top: 3.8%;
+}
+.home .left h1{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* color: rgb(255, 255, 255); */
+}
+.home .left p{
+    font-size: 18px;
+}
+
+.home .logos{
+    display: flex;
+    gap: 20px;
+}
+.home .logos img{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+}
+.home .right{
+    height: 100%;
+    width: 50%;
+    /* display: flex;
+    justify-content: center; */
+    padding-left: 18%;
+}
+.home .right img{
+    height: 500px;
+    width: 250px;
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./assets/imgs/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about h1{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 50px;
+}
+
+.features{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(183, 157, 255);
+}
+.features h1{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 50px;
+}
+
+
+
+/* header.scrolled{
+    background-color: white;
+    opacity: 0.98;
+}
+header.scrolled  a{
+    color: black;
+} */
+
+/* style.css */
+
+.scrolled .maindiv{
+    background-color: white; 
+    opacity: 0.98;
+}
+
+.scrolled .nav ul li a {
+    color: black; 
+}
+.scrolled .maindiv .logo span{
+    color: #6344fc;
+}
+.scrolled .nav ul li a:hover{
+    color:#3007ff;
+    transition: 0.3s;
+}
